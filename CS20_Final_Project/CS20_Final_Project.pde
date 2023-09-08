@@ -1,6 +1,12 @@
 /***
-2087 lines, 15 .pde files, and endless hours later, I present a barely functional demo!
+2094 lines, 15 .pde files, and endless hours later, I present a barely functional demo!
 game dev is a lot harder without built-in ANYTHING.
+
+This demo allows you to control a dynamic player, with one enemy chasing you once it sees you.
+Use WASD or arrow keys to move, and move the mouse to change speeds.
+Most of my time was spent polishing. There is no health bar.
+Refer to the README file for specific information.
+
 BUGS:
   - Player can get stuck on a corner by moving perpendicular to wall corner
   - A gap appears between the sprite and a wall if the player is already moving along another wall
@@ -18,7 +24,8 @@ TODO:
   - Better enemy pathfinding (traces polygons)
   - Tables hidden when not visible
   - Door obstacle
-  - Camera is chaser instead of locked */
+  - Camera is chaser instead of locked
+Toggle debug mode by typing "It's Codin' Time". */
 
 //// DEBUGGING VARIABLES
 static boolean debugging = true;
