@@ -1,4 +1,6 @@
 /***
+2087 lines, 15 .pde files, and endless hours later, I present a barely functional demo!
+game dev is a lot harder without built-in ANYTHING.
 BUGS:
   - Player can get stuck on a corner by moving perpendicular to wall corner
   - A gap appears between the sprite and a wall if the player is already moving along another wall
